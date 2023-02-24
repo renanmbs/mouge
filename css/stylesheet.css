@@ -251,11 +251,11 @@ iframe{
     }
 
     nav a{
-        font-size: .5rem;
+        font-size: .73rem;
     }
 
     .gallery{
-        width: 30rem;
+        width: 24rem;
         height: 20rem;
     }
 
@@ -266,7 +266,7 @@ iframe{
     }
 
     .gallery img:hover{
-        flex: 1 1 15rem;
+        flex: 1 1 13rem;
     }
 
     #book button{
@@ -274,7 +274,7 @@ iframe{
     }
 
     table{
-        width: 25rem;
+        width: 24rem;
     }
 
     th{
