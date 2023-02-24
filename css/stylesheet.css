@@ -56,7 +56,7 @@ nav a{
     float: left;
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.2rem;
     width: 20%; /* Four links of equal widths */
     text-align: center;
     border-right: solid white;
@@ -243,4 +243,50 @@ iframe{
     font-size: 1.5rem !important;
     transform: scale(1.2);
     text-decoration: underline;
+}
+
+@media only screen and (max-width:660px){
+    main h1{
+        font-size: 5.5rem;
+    }
+
+    nav a{
+        font-size: .8rem;
+    }
+
+    .gallery{
+        width: 35rem;
+    }
+
+    #book h2{
+        font-size: 5rem;
+        text-shadow: 1px 1px 3px black;
+        padding-top: 2rem;
+    }
+
+    .gallery img:hover{
+        flex: 1 1 15rem;
+    }
+
+    #book button{
+        width: 20rem;
+    }
+
+    table{
+        width: 35rem;
+    }
+
+    th{
+        font-size: 1.5rem;
+        padding: 1rem 0 2rem 0;
+    }
+
+    iframe{
+        margin: 1rem auto;
+        filter: drop-shadow( 1px 1px 5px black);
+        width: 350px !important;
+        height: 250px !important;
+    }
+
+
 }
