@@ -240,26 +240,27 @@ iframe{
 }
 
 .lin:hover{
-    font-size: 1.5rem !important;
-    transform: scale(1.2);
-    text-decoration: underline;
+    transform: scale(1.1);
+    text-decoration: underline solid #f1ebe2 !important;
 }
 
 @media only screen and (max-width:660px){
     main h1{
         font-size: 5.5rem;
+        text-shadow: 1px 1px 3px black;
     }
 
     nav a{
-        font-size: .8rem;
+        font-size: .5rem;
     }
 
     .gallery{
-        width: 35rem;
+        width: 30rem;
+        height: 20rem;
     }
 
     #book h2{
-        font-size: 5rem;
+        font-size: 3rem;
         text-shadow: 1px 1px 3px black;
         padding-top: 2rem;
     }
@@ -273,7 +274,7 @@ iframe{
     }
 
     table{
-        width: 35rem;
+        width: 25rem;
     }
 
     th{
