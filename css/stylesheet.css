@@ -244,6 +244,19 @@ iframe{
     text-decoration: underline solid #f1ebe2 !important;
 }
 
+@media only screen and (max-width:800px){
+
+    .gallery{
+        width: 50rem;
+        height: 25rem;
+    }
+
+    table{
+        width: 50rem;
+    }
+
+}
+
 @media only screen and (max-width:660px){
     main h1{
         font-size: 5.5rem;
