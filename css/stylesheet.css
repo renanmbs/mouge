@@ -246,13 +246,23 @@ iframe{
 
 @media only screen and (max-width:800px){
 
+    main h1{
+        text-shadow: 1px 1px 5px black;
+    }
+
+    #book h2{
+        font-size: 6rem;
+        text-shadow: 1px 1px 3px black;
+        padding-top: 1rem;
+    }
+
     .gallery{
-        width: 50rem;
+        width: 45rem;
         height: 25rem;
     }
 
     table{
-        width: 50rem;
+        width: 45rem;
     }
 
 }
