@@ -255,7 +255,7 @@ iframe{
     }
 
     .gallery{
-        width: 24rem;
+        width: 23rem;
         height: 20rem;
     }
 
@@ -266,7 +266,7 @@ iframe{
     }
 
     .gallery img:hover{
-        flex: 1 1 13rem;
+        flex: 1 1 11rem;
     }
 
     #book button{
@@ -274,7 +274,7 @@ iframe{
     }
 
     table{
-        width: 24rem;
+        width: 23rem;
     }
 
     th{
