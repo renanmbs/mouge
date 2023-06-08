@@ -11,14 +11,19 @@ h1{
     text-align: center;
     color: rgb(164, 45, 186);
     font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: italic;
 }
 
-p{
+p, p>li{
     font-size: larger;
+    font-family: 'Mulish', sans-serif;
+    margin: 1rem auto;
 }
 
 h2 > li{
     color: rgb(164, 45, 186);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .space{
@@ -30,3 +35,4 @@ h2 > li{
     font-size: 2rem;
     color: rgb(164, 45, 186);
 }
+
