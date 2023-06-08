@@ -1,0 +1,32 @@
+*{
+    color: black;
+}
+
+body{
+    /* background: linear-gradient(to top right, rgba(67, 2, 87, 0.794), rgba(1, 19, 69, 0.884)); */
+    background-color: rgba(245, 245, 220, 0.734);
+}
+
+h1{
+    text-align: center;
+    color: rgb(164, 45, 186);
+    font-size: 3rem;
+}
+
+p{
+    font-size: larger;
+}
+
+h2 > li{
+    color: rgb(164, 45, 186);
+}
+
+.space{
+    margin: 2rem auto;
+}
+
+.space::first-letter{
+    margin-left: 2.3rem;
+    font-size: 2rem;
+    color: rgb(164, 45, 186);
+}
